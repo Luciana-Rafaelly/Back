@@ -1,12 +1,15 @@
 <?php
 // Definindo os dados de conexão com o banco MySQL
-$host = "ftpupload.net";
+$host = "luciana.42web.io";
 $banco = "if0_43414857_atividade";
 $usuario = "if0_43414857";
 $senha = "123321123ul";
-
+    $sql = "SELECT * FROM aluno";
+$resultado = $conexao->query($sql);
 try {
     // Criando uma instância PDO para conectar ao banco MySQL
+
+
     $conexao = new PDO("mysql:host=$host;dbname=$banco;charset=utf8", $usuario, $senha);
     
     // Definindo o modo de erro para exceções
