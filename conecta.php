@@ -1,9 +1,9 @@
 <?php
 // Definindo os dados de conexão com o banco MySQL
 $host = "luciana.42web.io";
-$banco = "if0_43414857_atividade";
-$usuario = "root";
-$senha = "";
+$banco = "atividade";
+$usuario = "if0_43414857";
+$senha = "123321123ul";
     $sql = "SELECT * FROM aluno";
 $resultado = $conexao->query($sql);
 try {

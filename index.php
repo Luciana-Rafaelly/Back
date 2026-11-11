@@ -5,7 +5,6 @@
     <meta charset="utf-8">
   </head> 
   <body>
-   
     <form method="post" action="login.php">
       <label>CPF</label> 
   <input type="text" name="cpf"><br>
