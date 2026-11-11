@@ -4,8 +4,7 @@ $host = "luciana.42web.io";
 $banco = "atividade";
 $usuario = "if0_43414857";
 $senha = "123321123ul";
-    $sql = "SELECT * FROM aluno";
-$resultado = $conexao->query($sql);
+    
 try {
     // Criando uma instância PDO para conectar ao banco MySQL
 
