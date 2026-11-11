@@ -1,7 +1,7 @@
 <?php
 // Definindo os dados de conexão com o banco MySQL
 $host = "localhost";
-$banco = "banco_de_dados";
+$banco = "if0_43414857_atividade";
 $usuario = "root";
 $senha = "";
 
